@@ -1,13 +1,10 @@
-config-version: '1'
-
-# 다중서버면 true로 변경해주세요.
-proxy: false
-
-# [그라데이션] <g:000000>안녕하세요</g:ffffff>
-# [단색] <s:000000>안녕하세요
 # %player% = 공지한 유저
+# %display% = 공지한 유저의 표시 닉네임
 # %message% = 메시지
 broadcast-format:
   - ""
   - "&6[공지] &f%message%"
   - ""
+
+help-format:
+  - "&c[도움요청] &f%display%&7(%player%): &f%message%"
