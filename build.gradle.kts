@@ -32,13 +32,3 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation(kotlin("reflect"))
 }
-
-tasks {
-    test {
-        useJUnitPlatform()
-    }
-    jar {
-        archiveFileName.set("${rootProject.name}-${rootProject.version}.jar")
-        destinationDirectory.set(file("D:\\서버\\1.20.1 - 개발\\plugins"))
-    }
-}
